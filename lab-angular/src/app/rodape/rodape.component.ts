@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RodapeComponent implements OnInit {
 
-  rodape = 'AULA ANGULAR 2020';
+  rodape = 'Aula 2020';
 
   constructor() { }
 
