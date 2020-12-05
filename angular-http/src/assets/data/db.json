@@ -1,0 +1,25 @@
+{
+  "atendimentos": [
+    {
+      "id": 1,
+      "coordenador": "Felipe",
+      "assunto": "Matrícula",
+      "descricao": "Matrícula xxx",
+      "data": "13/10/2020"
+    },
+    {
+      "id": 2,
+      "coordenador": "Tati",
+      "assunto": "Matrícula",
+      "descricao": "Matrícula xxx",
+      "data": "19/11/2020"
+    },
+    {
+      "coordenador": "iojoij",
+      "assunto": "oij",
+      "descricao": "oijoij",
+      "data": "oijoij",
+      "id": 3
+    }
+  ]
+}
