@@ -43,28 +43,28 @@
                 <label for="coordenador">Coordenador</label>
                 <input type="text" [(ngModel)]="atendimento.coordenador" id="coordenador" name="coordenador" #coordenador="ngModel" required class="form-control" [ngClass]="{ 'is-invalid': f.submitted && coordenador.invalid }" placeholder="Digite o coordenador">
                 <div *ngIf="f.submitted && coordenador.invalid" class="invalid-feedback">
-                    <div *ngIf="coordenador.errors.required">Coordenador é obrigatório</div>
+             
                 </div>
             </div>
             <div class="form-group">
                 <label for="assunto">Assunto</label>
                 <input type="text" [(ngModel)]="atendimento.assunto" id="assunto" name="assunto" #assunto="ngModel" required class="form-control" [ngClass]="{ 'is-invalid': f.submitted && assunto.invalid }" placeholder="Digite o assunto">
                 <div *ngIf="f.submitted && assunto.invalid" class="invalid-feedback">
-                    <div *ngIf="assunto.errors.required">Assunto é obrigatório</div>
+                
                 </div>
             </div>
             <div class="form-group">
                 <label for="descricao">Descrição</label>
                 <input type="text" [(ngModel)]="atendimento.descricao" id="descricao" name="descricao" #descricao="ngModel" required class="form-control" [ngClass]="{ 'is-invalid': f.submitted && descricao.invalid }" placeholder="Digite a descrição">
                 <div *ngIf="f.submitted && descricao.invalid" class="invalid-feedback">
-                    <div *ngIf="descricao.errors.required">Descrição é obrigatória</div>
+          
                 </div>
             </div>
             <div class="form-group">
               <label for="data">Data</label>
               <input type="text" [(ngModel)]="atendimento.data" id="data" name="data" #data="ngModel" required class="form-control" [ngClass]="{ 'is-invalid': f.submitted && data.invalid }" placeholder="Digite a data">
               <div *ngIf="f.submitted && data.invalid" class="invalid-feedback">
-                  <div *ngIf="data.errors.required">Data é obrigatória</div>
+                  
               </div>
           </div>
             <button type="submit" class="btn btn-primary btn-add-atendimento">Salvar</button>
